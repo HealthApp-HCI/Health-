@@ -13,6 +13,31 @@
 		6B1D44D32806220900B60F6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1D44D12806220900B60F6E /* Main.storyboard */; };
 		6B1D44D52806220B00B60F6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1D44D42806220B00B60F6E /* Assets.xcassets */; };
 		6B1D44D82806220B00B60F6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1D44D62806220B00B60F6E /* LaunchScreen.storyboard */; };
+		6B1D44E02806298600B60F6E /* FormatDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D44DF2806298600B60F6E /* FormatDisplay.swift */; };
+		6B1D44E228062A0700B60F6E /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D44E128062A0700B60F6E /* CoreDataStack.swift */; };
+		6B1D44E42806311D00B60F6E /* RunDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D44E32806311D00B60F6E /* RunDataViewController.swift */; };
+		6B1D44E62806317400B60F6E /* RunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D44E52806317400B60F6E /* RunViewController.swift */; };
+		6B1D44E8280631CD00B60F6E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D44E7280631CD00B60F6E /* HomeViewController.swift */; };
+		6B1D44EA280631FE00B60F6E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D44E9280631FE00B60F6E /* ProfileViewController.swift */; };
+		6B1D44EC280632B700B60F6E /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D44EB280632B700B60F6E /* EditProfileViewController.swift */; };
+		6B1D44EE280634D300B60F6E /* StepTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D44ED280634D300B60F6E /* StepTrackerViewController.swift */; };
+		6B1D44F02806363800B60F6E /* WorkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D44EF2806363800B60F6E /* WorkoutViewController.swift */; };
+		6B1D44F22806368900B60F6E /* MyDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D44F12806368900B60F6E /* MyDayViewController.swift */; };
+		6B1D44F42806378000B60F6E /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D44F32806378000B60F6E /* ChallengeViewController.swift */; };
+		6B1D44F6280637D600B60F6E /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D44F5280637D600B60F6E /* GoalsViewController.swift */; };
+		6B1D44F82806381600B60F6E /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D44F72806381600B60F6E /* FriendViewController.swift */; };
+		6B1D44FA2806384F00B60F6E /* FriendProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D44F92806384F00B60F6E /* FriendProfileController.swift */; };
+		6B1D44FC28063DB700B60F6E /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D44FB28063DB700B60F6E /* ProgressViewController.swift */; };
+		6B1D44FE28073AC100B60F6E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D44FD28073AC000B60F6E /* LoginViewController.swift */; };
+		6B1D450028073BCA00B60F6E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D44FF28073BCA00B60F6E /* LocationManager.swift */; };
+		6B1D450228073C4A00B60F6E /* StoryboardSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D450128073C4A00B60F6E /* StoryboardSupport.swift */; };
+		6B1D450428073D1600B60F6E /* UnitConverterPace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D450328073D1600B60F6E /* UnitConverterPace.swift */; };
+		6B1D450728073D4D00B60F6E /* myRun.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D450528073D4D00B60F6E /* myRun.xcdatamodeld */; };
+		6B1D450928073FE100B60F6E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D450828073FE100B60F6E /* File.swift */; };
+		6B1D450B2807401300B60F6E /* GIFAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D450A2807401300B60F6E /* GIFAPI.swift */; };
+		6B1D450D2807407100B60F6E /* DisplayRunController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D450C2807407100B60F6E /* DisplayRunController.swift */; };
+		6B1D450F280740A200B60F6E /* DisplayMyDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D450E280740A200B60F6E /* DisplayMyDay.swift */; };
+		6B2D7700280DF8D600D50266 /* libsqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B2D76FF280DF8D600D50266 /* libsqlite3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +49,31 @@
 		6B1D44D42806220B00B60F6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B1D44D72806220B00B60F6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B1D44D92806220B00B60F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B1D44DF2806298600B60F6E /* FormatDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatDisplay.swift; sourceTree = "<group>"; };
+		6B1D44E128062A0700B60F6E /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		6B1D44E32806311D00B60F6E /* RunDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunDataViewController.swift; sourceTree = "<group>"; };
+		6B1D44E52806317400B60F6E /* RunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunViewController.swift; sourceTree = "<group>"; };
+		6B1D44E7280631CD00B60F6E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6B1D44E9280631FE00B60F6E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		6B1D44EB280632B700B60F6E /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		6B1D44ED280634D300B60F6E /* StepTrackerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTrackerViewController.swift; sourceTree = "<group>"; };
+		6B1D44EF2806363800B60F6E /* WorkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutViewController.swift; sourceTree = "<group>"; };
+		6B1D44F12806368900B60F6E /* MyDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDayViewController.swift; sourceTree = "<group>"; };
+		6B1D44F32806378000B60F6E /* ChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
+		6B1D44F5280637D600B60F6E /* GoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; };
+		6B1D44F72806381600B60F6E /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		6B1D44F92806384F00B60F6E /* FriendProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendProfileController.swift; sourceTree = "<group>"; };
+		6B1D44FB28063DB700B60F6E /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		6B1D44FD28073AC000B60F6E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6B1D44FF28073BCA00B60F6E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		6B1D450128073C4A00B60F6E /* StoryboardSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardSupport.swift; sourceTree = "<group>"; };
+		6B1D450328073D1600B60F6E /* UnitConverterPace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverterPace.swift; sourceTree = "<group>"; };
+		6B1D450628073D4D00B60F6E /* myRun.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myRun.xcdatamodel; sourceTree = "<group>"; };
+		6B1D450828073FE100B60F6E /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		6B1D450A2807401300B60F6E /* GIFAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFAPI.swift; sourceTree = "<group>"; };
+		6B1D450C2807407100B60F6E /* DisplayRunController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayRunController.swift; sourceTree = "<group>"; };
+		6B1D450E280740A200B60F6E /* DisplayMyDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMyDay.swift; sourceTree = "<group>"; };
+		6B2D76FF280DF8D600D50266 /* libsqlite3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = libsqlite3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +91,8 @@
 			isa = PBXGroup;
 			children = (
 				6B1D44CA2806220900B60F6E /* healthplusplus */,
+				6B2D76FB280DF77C00D50266 /* healthplusplusTests */,
+				6B2D76FE280DF86100D50266 /* Frameworks */,
 				6B1D44C92806220900B60F6E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,13 +110,52 @@
 			children = (
 				6B1D44CB2806220900B60F6E /* AppDelegate.swift */,
 				6B1D44CD2806220900B60F6E /* SceneDelegate.swift */,
+				6B1D44DF2806298600B60F6E /* FormatDisplay.swift */,
+				6B1D44E128062A0700B60F6E /* CoreDataStack.swift */,
+				6B1D44E32806311D00B60F6E /* RunDataViewController.swift */,
+				6B1D44E52806317400B60F6E /* RunViewController.swift */,
+				6B1D44E7280631CD00B60F6E /* HomeViewController.swift */,
+				6B1D44E9280631FE00B60F6E /* ProfileViewController.swift */,
+				6B1D44EB280632B700B60F6E /* EditProfileViewController.swift */,
+				6B1D44ED280634D300B60F6E /* StepTrackerViewController.swift */,
+				6B1D44EF2806363800B60F6E /* WorkoutViewController.swift */,
+				6B1D44F12806368900B60F6E /* MyDayViewController.swift */,
+				6B1D44F32806378000B60F6E /* ChallengeViewController.swift */,
+				6B1D44F5280637D600B60F6E /* GoalsViewController.swift */,
+				6B1D44F72806381600B60F6E /* FriendViewController.swift */,
+				6B1D44F92806384F00B60F6E /* FriendProfileController.swift */,
+				6B1D44FB28063DB700B60F6E /* ProgressViewController.swift */,
+				6B1D44FD28073AC000B60F6E /* LoginViewController.swift */,
 				6B1D44CF2806220900B60F6E /* ViewController.swift */,
 				6B1D44D12806220900B60F6E /* Main.storyboard */,
 				6B1D44D42806220B00B60F6E /* Assets.xcassets */,
 				6B1D44D62806220B00B60F6E /* LaunchScreen.storyboard */,
 				6B1D44D92806220B00B60F6E /* Info.plist */,
+				6B1D44FF28073BCA00B60F6E /* LocationManager.swift */,
+				6B1D450128073C4A00B60F6E /* StoryboardSupport.swift */,
+				6B1D450328073D1600B60F6E /* UnitConverterPace.swift */,
+				6B1D450528073D4D00B60F6E /* myRun.xcdatamodeld */,
+				6B1D450828073FE100B60F6E /* File.swift */,
+				6B1D450A2807401300B60F6E /* GIFAPI.swift */,
+				6B1D450C2807407100B60F6E /* DisplayRunController.swift */,
+				6B1D450E280740A200B60F6E /* DisplayMyDay.swift */,
 			);
 			path = healthplusplus;
+			sourceTree = "<group>";
+		};
+		6B2D76FB280DF77C00D50266 /* healthplusplusTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = healthplusplusTests;
+			sourceTree = "<group>";
+		};
+		6B2D76FE280DF86100D50266 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B2D76FF280DF8D600D50266 /* libsqlite3 */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +218,7 @@
 			files = (
 				6B1D44D82806220B00B60F6E /* LaunchScreen.storyboard in Resources */,
 				6B1D44D52806220B00B60F6E /* Assets.xcassets in Resources */,
+				6B2D7700280DF8D600D50266 /* libsqlite3 in Resources */,
 				6B1D44D32806220900B60F6E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +230,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1D44F02806363800B60F6E /* WorkoutViewController.swift in Sources */,
+				6B1D44E228062A0700B60F6E /* CoreDataStack.swift in Sources */,
 				6B1D44D02806220900B60F6E /* ViewController.swift in Sources */,
+				6B1D44EE280634D300B60F6E /* StepTrackerViewController.swift in Sources */,
+				6B1D450F280740A200B60F6E /* DisplayMyDay.swift in Sources */,
+				6B1D44FE28073AC100B60F6E /* LoginViewController.swift in Sources */,
+				6B1D44FA2806384F00B60F6E /* FriendProfileController.swift in Sources */,
+				6B1D44F42806378000B60F6E /* ChallengeViewController.swift in Sources */,
+				6B1D44F22806368900B60F6E /* MyDayViewController.swift in Sources */,
+				6B1D44E02806298600B60F6E /* FormatDisplay.swift in Sources */,
+				6B1D44E8280631CD00B60F6E /* HomeViewController.swift in Sources */,
 				6B1D44CC2806220900B60F6E /* AppDelegate.swift in Sources */,
+				6B1D44E62806317400B60F6E /* RunViewController.swift in Sources */,
+				6B1D450028073BCA00B60F6E /* LocationManager.swift in Sources */,
+				6B1D450928073FE100B60F6E /* File.swift in Sources */,
+				6B1D450D2807407100B60F6E /* DisplayRunController.swift in Sources */,
+				6B1D44EA280631FE00B60F6E /* ProfileViewController.swift in Sources */,
+				6B1D450728073D4D00B60F6E /* myRun.xcdatamodeld in Sources */,
+				6B1D44E42806311D00B60F6E /* RunDataViewController.swift in Sources */,
+				6B1D44F82806381600B60F6E /* FriendViewController.swift in Sources */,
+				6B1D44EC280632B700B60F6E /* EditProfileViewController.swift in Sources */,
+				6B1D44FC28063DB700B60F6E /* ProgressViewController.swift in Sources */,
 				6B1D44CE2806220900B60F6E /* SceneDelegate.swift in Sources */,
+				6B1D44F6280637D600B60F6E /* GoalsViewController.swift in Sources */,
+				6B1D450B2807401300B60F6E /* GIFAPI.swift in Sources */,
+				6B1D450228073C4A00B60F6E /* StoryboardSupport.swift in Sources */,
+				6B1D450428073D1600B60F6E /* UnitConverterPace.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +472,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6B1D450528073D4D00B60F6E /* myRun.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6B1D450628073D4D00B60F6E /* myRun.xcdatamodel */,
+			);
+			currentVersion = 6B1D450628073D4D00B60F6E /* myRun.xcdatamodel */;
+			path = myRun.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6B1D44C02806220800B60F6E /* Project object */;
 }

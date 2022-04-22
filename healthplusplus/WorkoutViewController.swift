@@ -120,26 +120,26 @@ class WorkoutViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     // this function creates and formatts the date picker which allows the user to select what date they have completed their workout
     func createDatePicker(){
         
-        // allignment
+       
         date.textAlignment = .center
 
         
-        //toolbear
+     
         let toolbar = UIToolbar()
         toolbar.sizeToFit()
         
-        //bar button
+        
         let doneBtn = UIBarButtonItem(barButtonSystemItem: .done, target: nil, action: #selector(donePressed))
         toolbar.setItems([doneBtn], animated: true)
         
-        //assign toolbar to keyboard
+       
         date.inputAccessoryView = toolbar
         
         
-        //asign datepicker to textfield
+    
         date.inputView = datePicker
         
-        //date picker mode
+
         datePicker.datePickerMode = .date
     }
   

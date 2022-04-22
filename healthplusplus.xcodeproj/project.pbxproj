@@ -38,6 +38,7 @@
 		6B1D450D2807407100B60F6E /* DisplayRunController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D450C2807407100B60F6E /* DisplayRunController.swift */; };
 		6B1D450F280740A200B60F6E /* DisplayMyDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D450E280740A200B60F6E /* DisplayMyDay.swift */; };
 		6B2D7700280DF8D600D50266 /* libsqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B2D76FF280DF8D600D50266 /* libsqlite3 */; };
+		6B2D770428109B3D00D50266 /* TabBarCustomizator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2D770328109B3D00D50266 /* TabBarCustomizator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		6B1D450C2807407100B60F6E /* DisplayRunController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayRunController.swift; sourceTree = "<group>"; };
 		6B1D450E280740A200B60F6E /* DisplayMyDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMyDay.swift; sourceTree = "<group>"; };
 		6B2D76FF280DF8D600D50266 /* libsqlite3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = libsqlite3; sourceTree = "<group>"; };
+		6B2D770328109B3D00D50266 /* TabBarCustomizator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCustomizator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				6B1D450A2807401300B60F6E /* GIFAPI.swift */,
 				6B1D450C2807407100B60F6E /* DisplayRunController.swift */,
 				6B1D450E280740A200B60F6E /* DisplayMyDay.swift */,
+				6B2D770328109B3D00D50266 /* TabBarCustomizator.swift */,
 			);
 			path = healthplusplus;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				6B1D450B2807401300B60F6E /* GIFAPI.swift in Sources */,
 				6B1D450228073C4A00B60F6E /* StoryboardSupport.swift in Sources */,
 				6B1D450428073D1600B60F6E /* UnitConverterPace.swift in Sources */,
+				6B2D770428109B3D00D50266 /* TabBarCustomizator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +407,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9SQZ7ZU2N6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = healthplusplus/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -430,6 +435,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9SQZ7ZU2N6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = healthplusplus/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

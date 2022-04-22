@@ -19,7 +19,6 @@ class LoginViewController : UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //imgImage.loadGif(name: "animation")
     }
     
     func didRecieveMemoryWarning(){

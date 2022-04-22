@@ -19,8 +19,8 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var CreateChallengeButton: UIButton!
     @IBOutlet weak var ViewProgressButton: UIButton!
     @IBOutlet weak var myDayButton: UIButton!
-    @IBOutlet weak var StepTrackerButton: UIButton! //added this for the step track
-    @IBOutlet weak var GoalButton:  UIButton! //added this for the goals screen - GS
+    @IBOutlet weak var StepTrackerButton: UIButton!
+    @IBOutlet weak var GoalButton:  UIButton!
     
     var db: OpaquePointer?
     
@@ -128,7 +128,7 @@ class HomeViewController: UIViewController {
         ///DailyNotificationController
         //Creates the notification content for daily notifications
         let contentDaily = UNMutableNotificationContent()
-        contentDaily.title = "OneMotion Daily Reminder"
+        contentDaily.title = "Health++ Daily Reminder"
         contentDaily.body = "Check in today and add your stats!"
         contentDaily.categoryIdentifier = "alarm"
         contentDaily.userInfo = ["customData": "fizzbuzz"]
@@ -153,7 +153,7 @@ class HomeViewController: UIViewController {
         ///InstantNotificationController
         //Creates the notification content for right when you close the application
         let contentInstant = UNMutableNotificationContent()
-        contentInstant.title = "OneMotion Misses You!"
+        contentInstant.title = "Health++ Misses You!"
         contentInstant.body = "Have you logged your stats today?"
         contentInstant.categoryIdentifier = "alarm"
         contentInstant.userInfo = ["customData": "fizzbuzz"]

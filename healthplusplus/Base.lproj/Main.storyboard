@@ -3,6 +3,7 @@
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,11 +14,11 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="tqS-9v-FFt" customClass="HomeViewController" customModule="healthplusplus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vn5-Wt-R2c">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2jI-kF-GHn">
-                                <rect key="frame" x="16" y="314" width="343" height="34"/>
+                                <rect key="frame" x="16" y="270" width="343" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="View Profile">
                                     <color key="titleColor" red="0.32444608209999998" green="0.41527998449999998" blue="0.63070005179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -27,7 +28,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q2a-nJ-Fcz">
-                                <rect key="frame" x="16" y="356" width="343" height="34"/>
+                                <rect key="frame" x="16" y="312" width="343" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Add Workout">
                                     <color key="titleColor" red="0.2972710133" green="0.39566516880000002" blue="0.61103999610000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -37,7 +38,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvh-At-kz5">
-                                <rect key="frame" x="16" y="398" width="343" height="34"/>
+                                <rect key="frame" x="16" y="354" width="343" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Create Challenge">
                                     <color key="titleColor" red="0.32444608209999998" green="0.41527998449999998" blue="0.63070005179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -47,7 +48,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TOp-nI-Dqv">
-                                <rect key="frame" x="16" y="440" width="343" height="34"/>
+                                <rect key="frame" x="16" y="396" width="343" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="View Progress">
                                     <color key="titleColor" red="0.32444608209999998" green="0.41527998449999998" blue="0.63070005179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -57,7 +58,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fpu-g5-ncu">
-                                <rect key="frame" x="16" y="482" width="343" height="34"/>
+                                <rect key="frame" x="16" y="438" width="343" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="My Day">
                                     <color key="titleColor" red="0.32444608209999998" green="0.41527998449999998" blue="0.63070005179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -67,7 +68,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceJ-3C-aIR">
-                                <rect key="frame" x="87" y="72" width="201" height="200"/>
+                                <rect key="frame" x="87" y="28" width="201" height="200"/>
                                 <color key="backgroundColor" red="0.13669174910000001" green="0.70975631480000001" blue="0.71785253289999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="J31-vC-Oqd"/>
@@ -82,7 +83,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eB3-U8-9kg" userLabel="Step Tracker Button">
-                                <rect key="frame" x="16" y="524" width="343" height="34"/>
+                                <rect key="frame" x="16" y="480" width="343" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Step Tracker">
                                     <color key="titleColor" red="0.36336973309999998" green="0.44667154549999999" blue="0.65811336040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -92,9 +93,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Anf-gG-PWS">
-                                <rect key="frame" x="16" y="610" width="343" height="38"/>
+                                <rect key="frame" x="16" y="522" width="343" height="38"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="38" id="Qw2-DM-sP2"/>
+                                    <constraint firstAttribute="height" constant="38" id="M5V-lu-tzk"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="Goals">
@@ -110,38 +111,42 @@
                         <constraints>
                             <constraint firstItem="VRU-Kd-CtX" firstAttribute="trailing" secondItem="q2a-nJ-Fcz" secondAttribute="trailing" constant="16" id="1um-Nu-pCm"/>
                             <constraint firstItem="VRU-Kd-CtX" firstAttribute="trailing" secondItem="kvh-At-kz5" secondAttribute="trailing" constant="16" id="6iv-Hm-y5I"/>
+                            <constraint firstItem="eB3-U8-9kg" firstAttribute="leading" secondItem="Anf-gG-PWS" secondAttribute="leading" id="9av-UL-r5M"/>
                             <constraint firstItem="TOp-nI-Dqv" firstAttribute="trailing" secondItem="VRU-Kd-CtX" secondAttribute="trailing" constant="-16" id="9ts-jc-wgH"/>
                             <constraint firstItem="Fpu-g5-ncu" firstAttribute="trailing" secondItem="VRU-Kd-CtX" secondAttribute="trailing" constant="-16" id="HdH-rW-MKV"/>
                             <constraint firstItem="VRU-Kd-CtX" firstAttribute="trailing" secondItem="TOp-nI-Dqv" secondAttribute="trailing" constant="16" id="Ht8-27-Xpm"/>
                             <constraint firstItem="VRU-Kd-CtX" firstAttribute="trailing" secondItem="Fpu-g5-ncu" secondAttribute="trailing" constant="16" id="LTe-Qn-oIZ"/>
-                            <constraint firstItem="VRU-Kd-CtX" firstAttribute="bottom" secondItem="Anf-gG-PWS" secondAttribute="bottom" constant="130" id="MRO-s9-Vjv"/>
+                            <constraint firstItem="eB3-U8-9kg" firstAttribute="top" secondItem="Fpu-g5-ncu" secondAttribute="bottom" constant="8" id="LuS-HY-M3s"/>
                             <constraint firstItem="Fpu-g5-ncu" firstAttribute="leading" secondItem="VRU-Kd-CtX" secondAttribute="leading" constant="16" id="NGU-XS-bSL"/>
                             <constraint firstItem="Fpu-g5-ncu" firstAttribute="top" secondItem="TOp-nI-Dqv" secondAttribute="bottom" constant="8" id="PZY-Ph-4Op"/>
                             <constraint firstItem="2jI-kF-GHn" firstAttribute="top" secondItem="ceJ-3C-aIR" secondAttribute="bottom" constant="42" id="Rgg-cn-YiC"/>
-                            <constraint firstItem="eB3-U8-9kg" firstAttribute="leading" secondItem="Anf-gG-PWS" secondAttribute="leading" id="Tdg-wU-guN"/>
+                            <constraint firstItem="eB3-U8-9kg" firstAttribute="leading" secondItem="Fpu-g5-ncu" secondAttribute="leading" id="TJA-3m-G8p"/>
                             <constraint firstItem="2jI-kF-GHn" firstAttribute="leading" secondItem="VRU-Kd-CtX" secondAttribute="leading" constant="16" id="Txu-5Y-fri"/>
-                            <constraint firstItem="eB3-U8-9kg" firstAttribute="leading" secondItem="Fpu-g5-ncu" secondAttribute="leading" id="VyP-mf-15h"/>
+                            <constraint firstItem="VRU-Kd-CtX" firstAttribute="bottom" secondItem="Anf-gG-PWS" secondAttribute="bottom" constant="149" id="XoM-Oc-hXz"/>
                             <constraint firstItem="TOp-nI-Dqv" firstAttribute="leading" secondItem="VRU-Kd-CtX" secondAttribute="leading" constant="16" id="aQu-uf-0Dp"/>
+                            <constraint firstItem="eB3-U8-9kg" firstAttribute="trailing" secondItem="Fpu-g5-ncu" secondAttribute="trailing" id="bO3-ax-2Vl"/>
                             <constraint firstItem="kvh-At-kz5" firstAttribute="trailing" secondItem="VRU-Kd-CtX" secondAttribute="trailing" constant="-16" id="dEO-ZP-Ef7"/>
-                            <constraint firstItem="eB3-U8-9kg" firstAttribute="top" secondItem="Fpu-g5-ncu" secondAttribute="bottom" constant="8" id="fSe-C5-9Na"/>
                             <constraint firstItem="q2a-nJ-Fcz" firstAttribute="top" secondItem="2jI-kF-GHn" secondAttribute="bottom" constant="8" id="g6b-Z1-y3G"/>
                             <constraint firstItem="kvh-At-kz5" firstAttribute="top" secondItem="q2a-nJ-Fcz" secondAttribute="bottom" constant="8" id="gnX-q6-Akr"/>
                             <constraint firstItem="ceJ-3C-aIR" firstAttribute="centerX" secondItem="2jI-kF-GHn" secondAttribute="centerX" id="hx4-Ao-JK1"/>
                             <constraint firstItem="q2a-nJ-Fcz" firstAttribute="leading" secondItem="VRU-Kd-CtX" secondAttribute="leading" constant="16" id="ikL-oB-xxV"/>
-                            <constraint firstItem="eB3-U8-9kg" firstAttribute="trailing" secondItem="Fpu-g5-ncu" secondAttribute="trailing" id="lQS-bs-RN2"/>
                             <constraint firstItem="VRU-Kd-CtX" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="2jI-kF-GHn" secondAttribute="trailing" id="oUE-RY-uwb"/>
                             <constraint firstItem="ceJ-3C-aIR" firstAttribute="top" secondItem="VRU-Kd-CtX" secondAttribute="top" constant="28" id="pTH-ys-yIR"/>
                             <constraint firstItem="TOp-nI-Dqv" firstAttribute="top" secondItem="kvh-At-kz5" secondAttribute="bottom" constant="8" id="qev-yd-tNZ"/>
-                            <constraint firstItem="eB3-U8-9kg" firstAttribute="trailing" secondItem="Anf-gG-PWS" secondAttribute="trailing" id="ric-Ig-i3R"/>
                             <constraint firstItem="2jI-kF-GHn" firstAttribute="trailing" secondItem="VRU-Kd-CtX" secondAttribute="trailing" constant="-16" id="t0W-hX-B0K"/>
                             <constraint firstItem="kvh-At-kz5" firstAttribute="leading" secondItem="VRU-Kd-CtX" secondAttribute="leading" constant="16" id="vSq-Fc-4gz"/>
                             <constraint firstItem="ceJ-3C-aIR" firstAttribute="leading" secondItem="VRU-Kd-CtX" secondAttribute="leading" constant="87" id="wQw-kC-Ngr"/>
+                            <constraint firstItem="eB3-U8-9kg" firstAttribute="trailing" secondItem="Anf-gG-PWS" secondAttribute="trailing" id="yDe-0c-7O3"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" id="Ncu-h2-xux">
+                        <imageReference key="image" image="house.circle" catalog="system" symbolScale="large"/>
+                        <imageReference key="selectedImage" image="house.circle.fill" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" id="PDm-IC-wDA">
                         <barButtonItem key="leftBarButtonItem" title="friendsList" style="plain" id="Zsh-X5-a5W">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="b4t-lt-uZM">
-                                <rect key="frame" x="16" y="7.6666666666666661" width="43" height="28.666666666666671"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.32444608209999998" green="0.41527998449999998" blue="0.63070005179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="person.2.fill" catalog="system">
@@ -168,7 +173,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bM2-H4-uZE" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1368.8" y="-334.72906403940885"/>
+            <point key="canvasLocation" x="-721" y="-335"/>
         </scene>
         <!--Step Tracker-->
         <scene sceneID="Tqr-nu-KvV">
@@ -238,14 +243,8 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="98u-uh-sb1">
-                                <rect key="frame" x="131" y="120" width="112" height="115"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="115" id="gcc-ip-WIY"/>
-                                </constraints>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8XC-Ad-YIg">
-                                <rect key="frame" x="152" y="68" width="71" height="26.333333333333329"/>
+                                <rect key="frame" x="152" y="68" width="70.666666666666686" height="26.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="22"/>
                                 <color key="textColor" red="0.19841344869999999" green="0.2935937045" blue="0.46750079309999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -255,18 +254,15 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="8XC-Ad-YIg" firstAttribute="leading" secondItem="iiw-3e-fdZ" secondAttribute="leading" constant="152" id="IfG-T0-Aih"/>
-                            <constraint firstItem="98u-uh-sb1" firstAttribute="centerX" secondItem="HuM-jB-WgA" secondAttribute="centerX" id="JPA-aY-fJr"/>
-                            <constraint firstItem="XPS-N8-kTs" firstAttribute="top" secondItem="98u-uh-sb1" secondAttribute="bottom" constant="8" id="Kak-ka-4qU"/>
                             <constraint firstItem="NTQ-dt-QxZ" firstAttribute="top" secondItem="XPS-N8-kTs" secondAttribute="bottom" constant="39" id="MR4-xc-0xB"/>
                             <constraint firstItem="XPS-N8-kTs" firstAttribute="leading" secondItem="iiw-3e-fdZ" secondAttribute="leading" constant="10" id="N10-s7-dwj"/>
                             <constraint firstItem="NTQ-dt-QxZ" firstAttribute="leading" secondItem="iiw-3e-fdZ" secondAttribute="leading" constant="37" id="QvG-xY-iIT"/>
                             <constraint firstItem="8XC-Ad-YIg" firstAttribute="top" secondItem="iiw-3e-fdZ" secondAttribute="top" constant="24" id="gPO-Ts-49d"/>
                             <constraint firstItem="NTQ-dt-QxZ" firstAttribute="centerX" secondItem="XPS-N8-kTs" secondAttribute="centerX" constant="93.333333333333329" id="mRn-KZ-hhS"/>
-                            <constraint firstItem="98u-uh-sb1" firstAttribute="leading" secondItem="iiw-3e-fdZ" secondAttribute="leading" constant="131" id="mrd-vY-bw4"/>
-                            <constraint firstItem="98u-uh-sb1" firstAttribute="centerX" secondItem="8XC-Ad-YIg" secondAttribute="centerX" id="r6R-bX-iyv"/>
                             <constraint firstItem="NTQ-dt-QxZ" firstAttribute="bottom" secondItem="iiw-3e-fdZ" secondAttribute="bottom" constant="-53" id="rcB-f1-P7g"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="figure.walk.circle" catalog="system" selectedImage="figure.walk.circle.fill" id="Vh3-y9-beo"/>
                     <navigationItem key="navigationItem" title="Step Tracker" id="tGZ-f8-JYf"/>
                     <connections>
                         <outlet property="avgPaceLabel" destination="RJf-yO-Rsq" id="ufm-VN-PGj"/>
@@ -416,6 +412,10 @@
                             <constraint firstItem="siC-ZL-48F" firstAttribute="trailing" secondItem="6fs-XY-4ax" secondAttribute="trailing" constant="16" id="xNg-OY-60E"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" id="tu3-Nd-PgO">
+                        <imageReference key="image" image="person.circle" catalog="system" symbolScale="large"/>
+                        <imageReference key="selectedImage" image="person.circle.fill" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" title="Profile" largeTitleDisplayMode="always" id="5bZ-eT-1fa"/>
                     <connections>
                         <outlet property="editButton" destination="ALu-AS-hCT" id="eJQ-VS-BOK"/>
@@ -980,6 +980,10 @@
                         <viewLayoutGuide key="safeArea" id="HOF-Fa-T8F"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" id="g7p-WN-Mt0">
+                        <imageReference key="image" image="figure.walk.circle" catalog="system" symbolScale="large"/>
+                        <imageReference key="selectedImage" image="figure.walk.circle.fill" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" title="Add Workout" id="zgo-jA-uDf"/>
                     <connections>
                         <outlet property="date" destination="tAc-OK-zG5" id="U3L-KA-zBs"/>
@@ -993,6 +997,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jda-lx-Fpl" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1654" y="1181"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Au6-rR-IPe">
+            <objects>
+                <tabBarController id="Q6I-RX-lPa" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="o8e-JE-2Qq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="tqS-9v-FFt" kind="relationship" relationship="viewControllers" id="mY2-c0-qcb"/>
+                        <segue destination="hYb-RW-1Pf" kind="relationship" relationship="viewControllers" id="xfy-Kp-Z4v"/>
+                        <segue destination="Xlk-Hl-XTU" kind="relationship" relationship="viewControllers" id="c7Z-mH-Opf"/>
+                        <segue destination="7Fa-Q4-F1f" kind="relationship" relationship="viewControllers" id="WCs-uA-opN"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bKC-f5-cAZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1766" y="-131"/>
         </scene>
         <!--Create Challenge-->
         <scene sceneID="F4e-2P-CDl">
@@ -1085,6 +1109,10 @@
                         <viewLayoutGuide key="safeArea" id="fQu-Bq-KbE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" id="e6f-7c-jaS">
+                        <imageReference key="image" image="heart.circle" catalog="system" symbolScale="large"/>
+                        <imageReference key="selectedImage" image="heart.circle.fill" catalog="system" symbolScale="large"/>
+                    </tabBarItem>
                     <navigationItem key="navigationItem" title="Create Challenge" id="aOW-Gx-A09"/>
                     <connections>
                         <outlet property="date" destination="yqT-eN-NYV" id="Eek-lg-MYp"/>
@@ -1377,7 +1405,7 @@
                     <navigationItem key="navigationItem" id="JBC-Pd-GPs">
                         <barButtonItem key="rightBarButtonItem" style="plain" id="hju-Hz-erw">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ev6-zN-eL0">
-                                <rect key="frame" x="317.66666666666669" y="4.6666666666666679" width="41.333333333333314" height="34.666666666666657"/>
+                                <rect key="frame" x="317.66666666666669" y="10.666666666666668" width="41.333333333333314" height="34.666666666666657"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.19841344869999999" green="0.2935937045" blue="0.46750079309999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="person.crop.circle.fill.badge.plus" catalog="system">
@@ -1511,7 +1539,7 @@
                     <navigationItem key="navigationItem" id="pKA-hC-Sca">
                         <barButtonItem key="rightBarButtonItem" image="chart.bar.fill" catalog="system" style="plain" id="Xtk-sd-DDH">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="o6d-KX-GlH">
-                                <rect key="frame" x="280" y="9.3333333333333339" width="79" height="25.666666666666664"/>
+                                <rect key="frame" x="280" y="15.333333333333334" width="79" height="25.666666666666664"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.19841344869999999" green="0.2935937045" blue="0.46750079309999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="chart.bar.fill" catalog="system">
@@ -1563,7 +1591,7 @@
                                     <color key="titleColor" red="0.17101046440000001" green="0.70975774530000002" blue="0.71785336730000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="tqS-9v-FFt" kind="show" id="ibp-wW-rZj"/>
+                                    <segue destination="Q6I-RX-lPa" kind="show" id="X8C-DW-1n7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IGa-IG-Hbr">
@@ -1923,7 +1951,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PGS-gA-eBL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2593" y="516"/>
+            <point key="canvasLocation" x="-3042" y="508"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -1932,18 +1960,28 @@
         <segue reference="rW8-6N-NSZ"/>
         <segue reference="JM3-Ay-Ig2"/>
         <segue reference="qoO-co-tN5"/>
+        <segue reference="CCb-B6-CWw"/>
+        <segue reference="gVn-Pe-Cvn"/>
+        <segue reference="CuB-l5-EPx"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Health logo" width="500" height="500"/>
-        <image name="Image-1" width="466" height="416"/>
         <image name="Screen Shot 2020-06-22 at 9.35.16 PM" width="197" height="162"/>
         <image name="bolt.circle" catalog="system" width="128" height="121"/>
         <image name="calendar" catalog="system" width="128" height="106"/>
         <image name="chart.bar.fill" catalog="system" width="128" height="92"/>
         <image name="chevron.right" catalog="system" width="96" height="128"/>
+        <image name="figure.walk.circle" catalog="system" width="128" height="121"/>
+        <image name="figure.walk.circle.fill" catalog="system" width="128" height="121"/>
         <image name="gear" catalog="system" width="128" height="119"/>
+        <image name="heart.circle" catalog="system" width="128" height="121"/>
+        <image name="heart.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="house.circle" catalog="system" width="128" height="121"/>
+        <image name="house.circle.fill" catalog="system" width="128" height="121"/>
         <image name="person.2.fill" catalog="system" width="128" height="80"/>
         <image name="person.3.fill" catalog="system" width="128" height="61"/>
+        <image name="person.circle" catalog="system" width="128" height="121"/>
+        <image name="person.circle.fill" catalog="system" width="128" height="121"/>
         <image name="person.crop.circle" catalog="system" width="128" height="121"/>
         <image name="person.crop.circle.fill" catalog="system" width="128" height="121"/>
         <image name="person.crop.circle.fill.badge.plus" catalog="system" width="128" height="113"/>

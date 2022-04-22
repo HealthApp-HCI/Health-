@@ -1488,8 +1488,8 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Smith" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AhZ-gR-ZLV">
-                                <rect key="frame" x="121.33333333333333" y="239.33333333333334" width="132.33333333333337" height="30.333333333333343"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Josh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AhZ-gR-ZLV">
+                                <rect key="frame" x="159.66666666666666" y="239.33333333333334" width="56" height="30.333333333333343"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
                                 <color key="textColor" red="0.19841344869999999" green="0.2935937045" blue="0.46750079309999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1955,7 +1955,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="s8X-wr-QjZ"/>
         <segue reference="Nsl-zv-1ui"/>
         <segue reference="rW8-6N-NSZ"/>
         <segue reference="JM3-Ay-Ig2"/>

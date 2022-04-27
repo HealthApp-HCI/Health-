@@ -17,7 +17,6 @@ class ProfileViewController: UIViewController, UITableViewDelegate {
 //    var finalProfileData: String!
     var db: OpaquePointer?
     
-    /// Refreshes the state of the current ViewController with possible updated text in the UserDefaults
     /// - Parameter animated: takes a Boolean parameter
     override func viewWillAppear(_ animated: Bool) {
         
@@ -61,7 +60,6 @@ class ProfileViewController: UIViewController, UITableViewDelegate {
                 print("\n\(id) | \(name1) | \(name2) | \(name3) | \(weight) | \(height) | \(name7)")
                 self.profileData.text = "\(name1) \n\n \(name2) \n\n \(name3) \n\n \(weight) \n\n \(height) \n\n \(name7)"
                 
-//              let dataDecoded:NSData = NSData(base64Encoded: name8, options: NSData.Base64DecodingOptions(rawValue: 0))!
                 let decodedData = Data(base64Encoded: name8, options: .ignoreUnknownCharacters)!
                 let decodedimage:UIImage = UIImage(data: decodedData)!
                 self.profilePicture.image = decodedimage
@@ -103,7 +101,7 @@ class ProfileViewController: UIViewController, UITableViewDelegate {
         
         profileData.isEditable = false
         editButton.layer.cornerRadius = 10.0
-//        self.profileData.text = finalProfileData
+
         
     }
 }

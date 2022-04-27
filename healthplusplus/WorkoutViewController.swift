@@ -27,7 +27,7 @@ class WorkoutViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     var db: OpaquePointer?
     
     //creating a list of workouts that the user can select from
-    let workouts = ["Sit-Up", "Push-Up", "Squats", "Pull-Ups"]
+    let workouts = ["Pull-Up", "Squats", "Push-Up", "Sit-Up"]
     let pickerView = UIPickerView()
     let datePicker = UIDatePicker()
     override func viewDidLoad() {

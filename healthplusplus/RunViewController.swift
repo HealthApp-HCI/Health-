@@ -157,7 +157,7 @@ class RunViewController : UIViewController {
 
         print(newRun.distance)
         print(newRun.duration)
-        print(newRun.timestamp)
+        print(newRun.timestamp as Any)
         
       for location in locationList {
         let locationObject = Location(context: CoreDataStack.context)
@@ -184,8 +184,7 @@ class RunViewController : UIViewController {
         alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel))
         alertController.addAction(UIAlertAction(title: "Save", style: .default) { _ in
           self.stopRun()
-//          self.saveRun()
-//          self.performSegue(withIdentifier: .details, sender: nil)
+
         })
         alertController.addAction(UIAlertAction(title: "Discard", style: .destructive) { _ in
           self.stopRun()

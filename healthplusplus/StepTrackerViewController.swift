@@ -40,8 +40,6 @@ class StepTrackerViewController: UIViewController {
     var timerInterval = 1.0
     var timeElapsed:TimeInterval = 1.0
     
-    //a function that allows connection of the activate button to the storyboard UI
-    //and contains commands for the database when button is clicked
     @IBAction func activateButton(_ sender: UIButton)
     {
         //when the step tracker is turned on

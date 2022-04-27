@@ -151,6 +151,7 @@
                     <navigationItem key="navigationItem" id="PDm-IC-wDA">
                         <barButtonItem key="leftBarButtonItem" title="friendsList" style="plain" id="Zsh-X5-a5W">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="b4t-lt-uZM">
+                                <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.32444608209999998" green="0.41527998449999998" blue="0.63070005179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="person.2.fill" catalog="system">
@@ -446,7 +447,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.crop.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="wff-Ka-MY5">
-                                <rect key="frame" x="126" y="45" width="117" height="123"/>
+                                <rect key="frame" x="126" y="45" width="117" height="122.99999999999999"/>
                                 <color key="tintColor" red="0.19841344869999999" green="0.2935937045" blue="0.46750079309999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter First Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WeX-1g-m9M">
@@ -1145,7 +1146,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bolt.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Ame-hz-BIi">
-                                <rect key="frame" x="33" y="86.000000000000227" width="309" height="165"/>
+                                <rect key="frame" x="33" y="86" width="309" height="165"/>
                                 <color key="tintColor" systemColor="tintColor"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIQ-J1-wBA">
@@ -1245,13 +1246,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7le-dL-fJt">
-                                <rect key="frame" x="26" y="230" width="66.333333333333314" height="61.666666666666657"/>
+                                <rect key="frame" x="26" y="229.99999999999997" width="66.333333333333329" height="61.666666666666657"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
                                 <color key="textColor" red="0.19841344869999999" green="0.2935937045" blue="0.46750079309999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Select Date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bdN-PC-S3M">
-                                <rect key="frame" x="233" y="256" width="118.66666666666666" height="34"/>
+                                <rect key="frame" x="232.99999999999997" y="256" width="118.66666666666666" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="vZn-I8-THF"/>
                                 </constraints>
@@ -1321,7 +1322,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calorie Intake:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ChG-cy-Ggd">
-                                <rect key="frame" x="101" y="284" width="177.33333333333337" height="61.666666666666686"/>
+                                <rect key="frame" x="101.00000000000001" y="284" width="177.33333333333337" height="61.666666666666686"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
                                 <color key="textColor" red="0.19841344869999999" green="0.2935937045" blue="0.46750079309999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1653,7 +1654,7 @@
             <objects>
                 <viewController id="brD-zJ-T9g" customClass="LoginViewController" customModule="healthplusplus" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t4x-5R-bdw">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="19" translatesAutoresizingMaskIntoConstraints="NO" id="Sdh-sH-bnz">

@@ -7,4 +7,5 @@ target 'healthplusplus' do
 
   # Pods for healthplusplus
   pod 'Charts'
+  pod 'KDCircularProgress' 
 end

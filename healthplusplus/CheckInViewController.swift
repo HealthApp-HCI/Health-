@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import KDCircularProgress
 
 class CheckInViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
@@ -30,20 +31,20 @@ class CheckInViewController: UIViewController, UICollectionViewDataSource, UICol
         if indexPath.row == 0 {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HeadingCell", for: indexPath) as! HeadingCell
             
-            cell.headingLabel.text = "Welcome back nerd!"
+            cell.headingLabel.text = "Welcome back, Axel!"
             cell.subtitleLabel.text = "Today's Goal Progress"
             cell.backgroundColor = UIColor.white
             
-//            let height = cell.circularView.frame.size.height
-//            let width = cell.circularView.safeAreaLayoutGuide.layoutFrame.size.width
-//            let progress = KDCircularProgress(frame: CGRect(x: 0, y: 0, width: width, height: height))
-//                    progress.startAngle = -90
-//            progress.angle = 240.0
-//            progress.set(colors: UIColor.green)
-//            progress.clockwise = true
-//            progress.roundedCorners = false
-//
-//            cell.circularView.addSubview(progress)
+            let height = cell.circularView.frame.size.height
+            let width = cell.circularView.safeAreaLayoutGuide.layoutFrame.size.width
+            let progress = KDCircularProgress(frame: CGRect(x: 0, y: 0, width: width, height: height))
+                    progress.startAngle = -90
+            progress.angle = 240.0
+            progress.set(colors: UIColor.green)
+            progress.clockwise = true
+            progress.roundedCorners = false
+
+            cell.circularView.addSubview(progress)
 
             return cell
         }

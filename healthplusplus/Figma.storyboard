@@ -130,6 +130,8 @@
                             <constraint firstItem="9tO-lM-3Ud" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="-44" id="eHl-S1-GLT"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="house.circle" catalog="system" selectedImage="house.circle.fill" id="BOc-OS-fxG"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="collectionView" destination="9tO-lM-3Ud" id="tH8-1v-hdI"/>
                         <outlet property="flowLayout" destination="HZ3-X9-xwp" id="Xei-eX-4tu"/>
@@ -142,6 +144,8 @@
     </scenes>
     <resources>
         <image name="checkmark.circle.fill" catalog="system" width="128" height="121"/>
+        <image name="house.circle" catalog="system" width="128" height="121"/>
+        <image name="house.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

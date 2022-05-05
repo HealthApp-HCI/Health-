@@ -240,7 +240,7 @@ class StepTrackerViewController: UIViewController {
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        startButton.layer.cornerRadius = 10 //rounds the corners of the activate button
+       // startButton.layer.cornerRadius = 10 //rounds the corners of the activate button
         
     }
 }

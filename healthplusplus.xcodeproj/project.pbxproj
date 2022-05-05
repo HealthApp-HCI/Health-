@@ -39,6 +39,12 @@
 		6B1D450D2807407100B60F6E /* DisplayRunController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D450C2807407100B60F6E /* DisplayRunController.swift */; };
 		6B1D450F280740A200B60F6E /* DisplayMyDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1D450E280740A200B60F6E /* DisplayMyDay.swift */; };
 		6B2D7700280DF8D600D50266 /* libsqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 6B2D76FF280DF8D600D50266 /* libsqlite3 */; };
+		6B598D3C281B1B88007F4807 /* GraphsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B598D3B281B1B88007F4807 /* GraphsViewController.swift */; };
+		6B598D3E281B1EB2007F4807 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B598D3D281B1EB2007F4807 /* GraphViewController.swift */; };
+		6B598D40281B1F1F007F4807 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B598D3F281B1F1F007F4807 /* BarChartViewController.swift */; };
+		6B598D42281B1F3C007F4807 /* CommonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B598D41281B1F3C007F4807 /* CommonData.swift */; };
+		6B598D44281B1F4F007F4807 /* LineChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B598D43281B1F4F007F4807 /* LineChartViewController.swift */; };
+		6B598D46281B1F72007F4807 /* PieChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B598D45281B1F72007F4807 /* PieChartViewController.swift */; };
 		995FF2D6281A39B80066857C /* HexToColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995FF2D5281A39B80066857C /* HexToColor.swift */; };
 		995FF2D8281A39E30066857C /* CheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995FF2D7281A39E30066857C /* CheckInViewController.swift */; };
 		995FF2DA281A39F20066857C /* Figma.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 995FF2D9281A39F20066857C /* Figma.storyboard */; };
@@ -83,6 +89,12 @@
 		6B1D450C2807407100B60F6E /* DisplayRunController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayRunController.swift; sourceTree = "<group>"; };
 		6B1D450E280740A200B60F6E /* DisplayMyDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMyDay.swift; sourceTree = "<group>"; };
 		6B2D76FF280DF8D600D50266 /* libsqlite3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = libsqlite3; sourceTree = "<group>"; };
+		6B598D3B281B1B88007F4807 /* GraphsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphsViewController.swift; sourceTree = "<group>"; };
+		6B598D3D281B1EB2007F4807 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		6B598D3F281B1F1F007F4807 /* BarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
+		6B598D41281B1F3C007F4807 /* CommonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonData.swift; sourceTree = "<group>"; };
+		6B598D43281B1F4F007F4807 /* LineChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChartViewController.swift; sourceTree = "<group>"; };
+		6B598D45281B1F72007F4807 /* PieChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieChartViewController.swift; sourceTree = "<group>"; };
 		995FF2D5281A39B80066857C /* HexToColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexToColor.swift; sourceTree = "<group>"; };
 		995FF2D7281A39E30066857C /* CheckInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInViewController.swift; sourceTree = "<group>"; };
 		995FF2D9281A39F20066857C /* Figma.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Figma.storyboard; sourceTree = "<group>"; };
@@ -126,6 +138,7 @@
 			children = (
 				995FF2D5281A39B80066857C /* HexToColor.swift */,
 				6B1D44CB2806220900B60F6E /* AppDelegate.swift */,
+				6B598D3B281B1B88007F4807 /* GraphsViewController.swift */,
 				6B1D44CD2806220900B60F6E /* SceneDelegate.swift */,
 				6B1D44DF2806298600B60F6E /* FormatDisplay.swift */,
 				6B1D44E128062A0700B60F6E /* CoreDataStack.swift */,
@@ -160,6 +173,11 @@
 				995FF2D9281A39F20066857C /* Figma.storyboard */,
 				995FF2DD281A4B840066857C /* HeadingCell.swift */,
 				995FF2DF281A4C400066857C /* DailyGoalCell.swift */,
+				6B598D41281B1F3C007F4807 /* CommonData.swift */,
+				6B598D3D281B1EB2007F4807 /* GraphViewController.swift */,
+				6B598D45281B1F72007F4807 /* PieChartViewController.swift */,
+				6B598D43281B1F4F007F4807 /* LineChartViewController.swift */,
+				6B598D3F281B1F1F007F4807 /* BarChartViewController.swift */,
 			);
 			path = healthplusplus;
 			sourceTree = "<group>";
@@ -321,20 +339,26 @@
 				6B1D44E8280631CD00B60F6E /* HomeViewController.swift in Sources */,
 				6B1D44CC2806220900B60F6E /* AppDelegate.swift in Sources */,
 				6B1D44E62806317400B60F6E /* RunViewController.swift in Sources */,
+				6B598D42281B1F3C007F4807 /* CommonData.swift in Sources */,
 				6B1D450028073BCA00B60F6E /* LocationManager.swift in Sources */,
 				6B1D450928073FE100B60F6E /* File.swift in Sources */,
+				6B598D40281B1F1F007F4807 /* BarChartViewController.swift in Sources */,
 				6B1D450D2807407100B60F6E /* DisplayRunController.swift in Sources */,
 				6B1D44EA280631FE00B60F6E /* ProfileViewController.swift in Sources */,
 				995FF2D8281A39E30066857C /* CheckInViewController.swift in Sources */,
 				6B1D450728073D4D00B60F6E /* myRun.xcdatamodeld in Sources */,
 				995FF2D6281A39B80066857C /* HexToColor.swift in Sources */,
+				6B598D3C281B1B88007F4807 /* GraphsViewController.swift in Sources */,
+				6B598D44281B1F4F007F4807 /* LineChartViewController.swift in Sources */,
 				6B1D44E42806311D00B60F6E /* RunDataViewController.swift in Sources */,
 				6B1D44F82806381600B60F6E /* FriendViewController.swift in Sources */,
 				6B1D44EC280632B700B60F6E /* EditProfileViewController.swift in Sources */,
 				6B1D44FC28063DB700B60F6E /* ProgressViewController.swift in Sources */,
 				6B1D44CE2806220900B60F6E /* SceneDelegate.swift in Sources */,
 				6B1D44F6280637D600B60F6E /* GoalsViewController.swift in Sources */,
+				6B598D46281B1F72007F4807 /* PieChartViewController.swift in Sources */,
 				6B1D450B2807401300B60F6E /* GIFAPI.swift in Sources */,
+				6B598D3E281B1EB2007F4807 /* GraphViewController.swift in Sources */,
 				6B1D450228073C4A00B60F6E /* StoryboardSupport.swift in Sources */,
 				6B1D450428073D1600B60F6E /* UnitConverterPace.swift in Sources */,
 			);

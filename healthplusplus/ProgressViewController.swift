@@ -18,7 +18,7 @@ class ProgressViewController : UIViewController, UITableViewDelegate, UITableVie
     override func viewWillAppear(_ animated: Bool) {
         
         //OPENS THE CONNECTION
-        let fileURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false).appendingPathComponent("OneMotion.sqlite")
+        let fileURL = try! FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false).appendingPathComponent("health.sqlite")
 
         if sqlite3_open(fileURL.path, &db) != SQLITE_OK {
             print("Error Opening database")
